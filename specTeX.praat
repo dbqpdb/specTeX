@@ -1,11 +1,11 @@
-# stextrogram.praat orchestrates the export of
+# specTeX.praat orchestrates the export of
 # images and sound and text-grid data for
 # use in LaTeX figures via tex-trogram.sty .
 # These two scripts are functional, but under
 # continuing development.
 
 # done up 2013 by dan brenner
-# dbrenner atmark email dot arizona dot edu
+# wobaidan@gmail.com
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
 clearinfo
