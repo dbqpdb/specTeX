@@ -14,4 +14,4 @@ There are two components to the specTeX thingamajigging process.
 
 ## How do you work this thing?!?
 
-The Praat script is used to export the acoustic data related to the figure. Next, the style file tells Markdown how to organize the figure from its components.
+The Praat script is used to export the acoustic data related to the figure. Next, the style file tells LaTeX how to organize the figure from its components.

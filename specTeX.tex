@@ -1,0 +1,30 @@
+	\setlength\imagewidth{6in}
+	\setlength\imageheight{1.5in}
+	% Waveform & axes
+	\node[anchor=south west,inner sep=0cm] at (0,0) {\includegraphics[clip=true, trim=0.583333in 0.388888in 0.583333in 0.388888in, width=\imagewidth,height=\imageheight]{/home/dan/Stextrogram/praatfig_wf.eps}};
+	\node[anchor=east,fill=white,inner sep=1pt] at (0,0) {-0.311};
+	\node[anchor=east,fill=white,inner sep=1pt] at (0,\imageheight) {0.460};
+	\node[anchor=base,rotate=90,fill=white,inner sep=1pt] at (-8pt,\imageheight/2) {Pressure (Pa)};
+
+	% Spectrogram & axes
+	\node[anchor=north west,inner sep=0cm] at (0,0) {\includegraphics[clip=true, trim=0.583333in 0.388888in 0.583333in 0.388888in, width=\imagewidth,height=\imageheight]{/home/dan/Stextrogram/praatfig_spec.eps}};
+	\node[anchor=west,fill=white,inner sep=1pt] at (\imagewidth,0) {5000};
+	\node[anchor=west,fill=white,inner sep=1pt] at (\imagewidth,-\imageheight) {0};
+	\node[anchor=base,rotate=270,fill=white,inner sep=1pt] at (\imagewidth + 8pt,-\imageheight/2) {Frequency (Hz)};
+
+	% Time axis
+	\node[anchor=base,fill=white,inner sep=1pt] at (0,-\imageheight - \labheight) {0.799};
+	\node[anchor=base,fill=white,inner sep=1pt] at (\imagewidth,-\imageheight - \labheight) {1.220};
+	\node[anchor=base,fill=white,inner sep=1pt] at (\imagewidth/2,-\imageheight - \labheight) {Time (s)};
+% Interval labels for tier 1 (tier 1 in image)
+	\draw[line width=1\dashing/2] (0.03512839810752155\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight) -- (0.03512839810752155\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.11943655356557314\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.11943655356557314\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight);
+	\node[anchor=base,inner sep=\inttextboxsep,fill=white] at (0.07728247583654735\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 3pt) {\textbf{\ipa{s}}};
+	\draw[line width=1\dashing/2] (0.11943655356557314\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight) -- (0.11943655356557314\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.17564199053760754\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.17564199053760754\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight);
+	\node[anchor=base,inner sep=\inttextboxsep,fill=white] at (0.14753927205159034\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 3pt) {\textbf{\ipa{t}}};
+	\draw[line width=1\dashing/2] (0.17564199053760754\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight) -- (0.17564199053760754\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.33020694221070224\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.33020694221070224\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight);
+	\node[anchor=base,inner sep=\inttextboxsep,fill=white] at (0.2529244663741549\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 3pt) {\textbf{\ipa{\ae}}};
+	\draw[line width=1\dashing/2] (0.33020694221070224\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight) -- (0.33020694221070224\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.3840704859755685\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 0.7\intheight + 3pt) -- (0.3840704859755685\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight);
+	\node[anchor=base,inner sep=\inttextboxsep,fill=white] at (0.35713871409313536\imagewidth/0.4215407772902581,\imageheight + 1\intheight + 3pt) {\textbf{\ipa{n}}};
+% Interval labels for tier 2 (tier 2 in image)
+	\draw[line width=0.5\dashing/2] (0.03512839810752155\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight) -- (0.03512839810752155\imagewidth/0.4215407772902581,\imageheight + 0\intheight + 0.7\intheight + 3pt) -- (0.3840704859755685\imagewidth/0.4215407772902581,\imageheight + 0\intheight + 0.7\intheight + 3pt) -- (0.3840704859755685\imagewidth/0.4215407772902581,\imageheight - \dashintoimage*2\imageheight);
+	\node[anchor=base,inner sep=\inttextboxsep,fill=white] at (0.20959944204154513\imagewidth/0.4215407772902581,\imageheight + 0\intheight + 3pt) {\textbf{\ipa{Stan}}};
